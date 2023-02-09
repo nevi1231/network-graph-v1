@@ -1,0 +1,53 @@
+{
+    "type": "network",
+    "version": "1.0",
+    "data": "data.json",
+    "logo": {
+      "file": "https://www.passes.com/home",
+      "link": "https://www.passes.com/",
+      "text": "Connie Yang"
+    },
+    "text": {
+      "more": "",
+      "intro": "Network of transactions made between users to creators",
+      "title": "Network of Transactions"
+    },
+    "legend": {
+      "edgeLabel": "Creator",
+      "colorLabel": "Creator",
+      "nodeLabel": "User"
+    },
+    "features": {
+      "search": true,
+      "groupSelectorAttribute": false,
+      "hoverBehavior": "dim"
+    },
+    "informationPanel": {
+      "groupByEdgeDirection": false,
+      "imageAttribute": false
+    },
+    "sigma": {
+      "drawingProperties": {
+        "defaultEdgeType": "curve",
+        "defaultHoverLabelBGColor": "#002147",
+        "defaultLabelBGColor": "#ddd",
+        "activeFontStyle": "bold",
+        "defaultLabelColor": "#000",
+        "labelThreshold": 10,
+        "defaultLabelHoverColor": "#fff",
+        "fontStyle": "bold",
+        "hoverFontStyle": "bold",
+        "defaultLabelSize": 14
+      },
+      "graphProperties": {
+        "maxEdgeSize": 0.5,
+        "minEdgeSize": 0.2,
+        "minNodeSize": 1,
+        "maxNodeSize": 5
+      },
+      "mouseProperties": {
+        "maxRatio": 20,
+        "minRatio": 0.75
+      }
+    }
+  }
